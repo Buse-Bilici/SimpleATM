@@ -27,12 +27,14 @@ public class SimpleATM {
  case 1: // Check balance
  System.out.println("Your balance is: $" + balance);
  break;
+
  case 2: // Deposit
  System.out.print("Enter deposit amount: $");
  double deposit = scanner.nextDouble();
  balance += deposit;
  System.out.println("You deposited: $" + deposit);
  break;
+
  case 3: // Withdraw
  System.out.print("Enter withdrawal amount: $");
  double withdraw = scanner.nextDouble();
@@ -43,6 +45,7 @@ public class SimpleATM {
  System.out.println("Insufficient balance.");
  }
  break;
+
  case 4: // Exit
  System.out.println("Thank you for using the ATM.");
  scanner.close();
