@@ -23,3 +23,6 @@ This project uses:
 - Loops (while)
 - Basic algorithmic thinking
 
+
+<img width="386" height="683" alt="image" src="https://github.com/user-attachments/assets/5ce2e6ab-a6be-4bb4-9ba4-8fd847e5d7ee" />
+
